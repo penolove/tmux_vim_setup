@@ -1,3 +1,15 @@
+for centos first check lsb_release fucntion exist:
+```
+lsb_release
+```
+if "lsb_release: command not found"
+
+install redhat-lsb first
+```
+sudo yum install redhat-lsb -y
+```
+
+
 # tmux_vim_setup
 
 git clone this repository
@@ -22,9 +34,3 @@ execute:
 :PluginUpdate
 ```
 
-for centos meet problems
-"lsb_release: command not found"
-install redhat-lsb first
-```
-sudo yum install redhat-lsb -y
-```
