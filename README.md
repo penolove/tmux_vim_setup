@@ -1,4 +1,5 @@
-for centos first check lsb_release fucntion exist:
+# prerequest
+for CentOs first check lsb_release fucntion exist:
 ```
 lsb_release
 ```
@@ -34,3 +35,13 @@ execute:
 :PluginUpdate
 ```
 
+# issue ever meet:
+error with
+: Exuberant ctags not found in PATH
+```
+# centos
+sudo yum install ctags-etags
+# ubuntu
+sudo apt-get install exuberant-ctags
+
+```
