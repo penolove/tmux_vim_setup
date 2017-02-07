@@ -9,7 +9,7 @@ first install vim /tmux /curl:
 
 ```
 cd tmux_vim_setup;
-sudo ./tmux_vim_setup.sh
+./tmux_vim_setup.sh
 ```
 
 second start vim 
