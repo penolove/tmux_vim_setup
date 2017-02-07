@@ -1,5 +1,3 @@
-execute pathogen#infect()
-call pathogen#helptags()
 set t_Co=256
 
 map <C-n> :NERDTreeToggle<CR>

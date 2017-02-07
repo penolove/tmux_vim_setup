@@ -22,3 +22,9 @@ execute:
 :PluginUpdate
 ```
 
+for centos meet problems
+"lsb_release: command not found"
+install redhat-lsb first
+```
+sudo yum install redhat-lsb -y
+```

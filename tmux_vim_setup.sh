@@ -22,6 +22,9 @@ git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 cp vimrc ~/.vimrc
 
+mkdir ~/.vim/colors
+mv wombat256mod.vim ~/.vim/colors/wombat256.vim
+
 #tmux
 
 echo "export TERM=xterm-256color" >> ~/.bashrc
