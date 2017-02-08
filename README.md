@@ -1,17 +1,31 @@
 # prerequest
-for CentOs first check lsb_release fucntion exist:
+
+git:
+centos:
 ```
-lsb_release
+sudo yum install git
 ```
-if "lsb_release: command not found"
+ubuntu:
+```
+sudo apt-get install git
+```
+
+
+lsb_release:
 
 install redhat-lsb first
+centos:
 ```
 sudo yum install redhat-lsb -y
+```
+ubuntu:
+```
+sudo apt-get install lsb-release
 ```
 
 
 # tmux_vim_setup
+this setup.sh will install :  vim tmux curl ctags
 
 git clone this repository
 ```
