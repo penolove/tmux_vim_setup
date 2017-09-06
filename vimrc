@@ -57,6 +57,7 @@ Plugin 'scrooloose/nerdcommenter'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'Yggdroot/indentLine'
+Plugin 'w0rp/ale'
 call vundle#end()
 filetype plugin indent on
 

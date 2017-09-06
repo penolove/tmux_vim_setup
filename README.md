@@ -1,4 +1,7 @@
 # prerequest
+// log : add ale plugin [ref](https://github.com/w0rp/ale) 20170907
+
+
 
 git:
 centos:
